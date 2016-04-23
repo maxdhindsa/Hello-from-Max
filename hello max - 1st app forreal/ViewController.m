@@ -24,4 +24,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)pressme:(id)sender {
+    
+    self.label.text = @"Hello From Max";
+    
+}
 @end
