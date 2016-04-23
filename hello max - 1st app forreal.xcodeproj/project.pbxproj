@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F80A5F2D1CCB5C9800F14B8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A5F2C1CCB5C9800F14B8F /* main.m */; };
+		F80A5F301CCB5C9800F14B8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A5F2F1CCB5C9800F14B8F /* AppDelegate.m */; };
+		F80A5F331CCB5C9800F14B8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A5F321CCB5C9800F14B8F /* ViewController.m */; };
+		F80A5F361CCB5C9800F14B8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80A5F341CCB5C9800F14B8F /* Main.storyboard */; };
+		F80A5F381CCB5C9800F14B8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F80A5F371CCB5C9800F14B8F /* Assets.xcassets */; };
+		F80A5F3B1CCB5C9800F14B8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80A5F391CCB5C9800F14B8F /* LaunchScreen.storyboard */; };
+		F80A5F461CCB5C9900F14B8F /* hello_max___1st_app_forrealTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A5F451CCB5C9900F14B8F /* hello_max___1st_app_forrealTests.m */; };
+		F80A5F511CCB5C9900F14B8F /* hello_max___1st_app_forrealUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A5F501CCB5C9900F14B8F /* hello_max___1st_app_forrealUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F80A5F421CCB5C9900F14B8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F80A5F201CCB5C9800F14B8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F80A5F271CCB5C9800F14B8F;
+			remoteInfo = "hello max - 1st app forreal";
+		};
+		F80A5F4D1CCB5C9900F14B8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F80A5F201CCB5C9800F14B8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F80A5F271CCB5C9800F14B8F;
+			remoteInfo = "hello max - 1st app forreal";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F80A5F281CCB5C9800F14B8F /* hello max - 1st app forreal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hello max - 1st app forreal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80A5F2C1CCB5C9800F14B8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F80A5F2E1CCB5C9800F14B8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F80A5F2F1CCB5C9800F14B8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F80A5F311CCB5C9800F14B8F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F80A5F321CCB5C9800F14B8F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F80A5F351CCB5C9800F14B8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F80A5F371CCB5C9800F14B8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F80A5F3A1CCB5C9800F14B8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F80A5F3C1CCB5C9800F14B8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F80A5F411CCB5C9900F14B8F /* hello max - 1st app forrealTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hello max - 1st app forrealTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80A5F451CCB5C9900F14B8F /* hello_max___1st_app_forrealTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "hello_max___1st_app_forrealTests.m"; sourceTree = "<group>"; };
+		F80A5F471CCB5C9900F14B8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F80A5F4C1CCB5C9900F14B8F /* hello max - 1st app forrealUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hello max - 1st app forrealUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80A5F501CCB5C9900F14B8F /* hello_max___1st_app_forrealUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "hello_max___1st_app_forrealUITests.m"; sourceTree = "<group>"; };
+		F80A5F521CCB5C9900F14B8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F80A5F251CCB5C9800F14B8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80A5F3E1CCB5C9900F14B8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80A5F491CCB5C9900F14B8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F80A5F1F1CCB5C9800F14B8F = {
+			isa = PBXGroup;
+			children = (
+				F80A5F2A1CCB5C9800F14B8F /* hello max - 1st app forreal */,
+				F80A5F441CCB5C9900F14B8F /* hello max - 1st app forrealTests */,
+				F80A5F4F1CCB5C9900F14B8F /* hello max - 1st app forrealUITests */,
+				F80A5F291CCB5C9800F14B8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F80A5F291CCB5C9800F14B8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F80A5F281CCB5C9800F14B8F /* hello max - 1st app forreal.app */,
+				F80A5F411CCB5C9900F14B8F /* hello max - 1st app forrealTests.xctest */,
+				F80A5F4C1CCB5C9900F14B8F /* hello max - 1st app forrealUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F80A5F2A1CCB5C9800F14B8F /* hello max - 1st app forreal */ = {
+			isa = PBXGroup;
+			children = (
+				F80A5F2E1CCB5C9800F14B8F /* AppDelegate.h */,
+				F80A5F2F1CCB5C9800F14B8F /* AppDelegate.m */,
+				F80A5F311CCB5C9800F14B8F /* ViewController.h */,
+				F80A5F321CCB5C9800F14B8F /* ViewController.m */,
+				F80A5F341CCB5C9800F14B8F /* Main.storyboard */,
+				F80A5F371CCB5C9800F14B8F /* Assets.xcassets */,
+				F80A5F391CCB5C9800F14B8F /* LaunchScreen.storyboard */,
+				F80A5F3C1CCB5C9800F14B8F /* Info.plist */,
+				F80A5F2B1CCB5C9800F14B8F /* Supporting Files */,
+			);
+			path = "hello max - 1st app forreal";
+			sourceTree = "<group>";
+		};
+		F80A5F2B1CCB5C9800F14B8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F80A5F2C1CCB5C9800F14B8F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F80A5F441CCB5C9900F14B8F /* hello max - 1st app forrealTests */ = {
+			isa = PBXGroup;
+			children = (
+				F80A5F451CCB5C9900F14B8F /* hello_max___1st_app_forrealTests.m */,
+				F80A5F471CCB5C9900F14B8F /* Info.plist */,
+			);
+			path = "hello max - 1st app forrealTests";
+			sourceTree = "<group>";
+		};
+		F80A5F4F1CCB5C9900F14B8F /* hello max - 1st app forrealUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F80A5F501CCB5C9900F14B8F /* hello_max___1st_app_forrealUITests.m */,
+				F80A5F521CCB5C9900F14B8F /* Info.plist */,
+			);
+			path = "hello max - 1st app forrealUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F80A5F271CCB5C9800F14B8F /* hello max - 1st app forreal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F80A5F551CCB5C9900F14B8F /* Build configuration list for PBXNativeTarget "hello max - 1st app forreal" */;
+			buildPhases = (
+				F80A5F241CCB5C9800F14B8F /* Sources */,
+				F80A5F251CCB5C9800F14B8F /* Frameworks */,
+				F80A5F261CCB5C9800F14B8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hello max - 1st app forreal";
+			productName = "hello max - 1st app forreal";
+			productReference = F80A5F281CCB5C9800F14B8F /* hello max - 1st app forreal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F80A5F401CCB5C9900F14B8F /* hello max - 1st app forrealTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F80A5F581CCB5C9900F14B8F /* Build configuration list for PBXNativeTarget "hello max - 1st app forrealTests" */;
+			buildPhases = (
+				F80A5F3D1CCB5C9900F14B8F /* Sources */,
+				F80A5F3E1CCB5C9900F14B8F /* Frameworks */,
+				F80A5F3F1CCB5C9900F14B8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F80A5F431CCB5C9900F14B8F /* PBXTargetDependency */,
+			);
+			name = "hello max - 1st app forrealTests";
+			productName = "hello max - 1st app forrealTests";
+			productReference = F80A5F411CCB5C9900F14B8F /* hello max - 1st app forrealTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F80A5F4B1CCB5C9900F14B8F /* hello max - 1st app forrealUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F80A5F5B1CCB5C9900F14B8F /* Build configuration list for PBXNativeTarget "hello max - 1st app forrealUITests" */;
+			buildPhases = (
+				F80A5F481CCB5C9900F14B8F /* Sources */,
+				F80A5F491CCB5C9900F14B8F /* Frameworks */,
+				F80A5F4A1CCB5C9900F14B8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F80A5F4E1CCB5C9900F14B8F /* PBXTargetDependency */,
+			);
+			name = "hello max - 1st app forrealUITests";
+			productName = "hello max - 1st app forrealUITests";
+			productReference = F80A5F4C1CCB5C9900F14B8F /* hello max - 1st app forrealUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F80A5F201CCB5C9800F14B8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Max Dhindsa";
+				TargetAttributes = {
+					F80A5F271CCB5C9800F14B8F = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = E56VE9KAQ6;
+					};
+					F80A5F401CCB5C9900F14B8F = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = E56VE9KAQ6;
+						TestTargetID = F80A5F271CCB5C9800F14B8F;
+					};
+					F80A5F4B1CCB5C9900F14B8F = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = E56VE9KAQ6;
+						TestTargetID = F80A5F271CCB5C9800F14B8F;
+					};
+				};
+			};
+			buildConfigurationList = F80A5F231CCB5C9800F14B8F /* Build configuration list for PBXProject "hello max - 1st app forreal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F80A5F1F1CCB5C9800F14B8F;
+			productRefGroup = F80A5F291CCB5C9800F14B8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F80A5F271CCB5C9800F14B8F /* hello max - 1st app forreal */,
+				F80A5F401CCB5C9900F14B8F /* hello max - 1st app forrealTests */,
+				F80A5F4B1CCB5C9900F14B8F /* hello max - 1st app forrealUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F80A5F261CCB5C9800F14B8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80A5F3B1CCB5C9800F14B8F /* LaunchScreen.storyboard in Resources */,
+				F80A5F381CCB5C9800F14B8F /* Assets.xcassets in Resources */,
+				F80A5F361CCB5C9800F14B8F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80A5F3F1CCB5C9900F14B8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80A5F4A1CCB5C9900F14B8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F80A5F241CCB5C9800F14B8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80A5F331CCB5C9800F14B8F /* ViewController.m in Sources */,
+				F80A5F301CCB5C9800F14B8F /* AppDelegate.m in Sources */,
+				F80A5F2D1CCB5C9800F14B8F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80A5F3D1CCB5C9900F14B8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80A5F461CCB5C9900F14B8F /* hello_max___1st_app_forrealTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80A5F481CCB5C9900F14B8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80A5F511CCB5C9900F14B8F /* hello_max___1st_app_forrealUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F80A5F431CCB5C9900F14B8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F80A5F271CCB5C9800F14B8F /* hello max - 1st app forreal */;
+			targetProxy = F80A5F421CCB5C9900F14B8F /* PBXContainerItemProxy */;
+		};
+		F80A5F4E1CCB5C9900F14B8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F80A5F271CCB5C9800F14B8F /* hello max - 1st app forreal */;
+			targetProxy = F80A5F4D1CCB5C9900F14B8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F80A5F341CCB5C9800F14B8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F80A5F351CCB5C9800F14B8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F80A5F391CCB5C9800F14B8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F80A5F3A1CCB5C9800F14B8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F80A5F531CCB5C9900F14B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F80A5F541CCB5C9900F14B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F80A5F561CCB5C9900F14B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "hello max - 1st app forreal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dhindsa.hello-max---1st-app-forreal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F80A5F571CCB5C9900F14B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "hello max - 1st app forreal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dhindsa.hello-max---1st-app-forreal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F80A5F591CCB5C9900F14B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "hello max - 1st app forrealTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dhindsa.hello-max---1st-app-forrealTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hello max - 1st app forreal.app/hello max - 1st app forreal";
+			};
+			name = Debug;
+		};
+		F80A5F5A1CCB5C9900F14B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "hello max - 1st app forrealTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dhindsa.hello-max---1st-app-forrealTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hello max - 1st app forreal.app/hello max - 1st app forreal";
+			};
+			name = Release;
+		};
+		F80A5F5C1CCB5C9900F14B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "hello max - 1st app forrealUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dhindsa.hello-max---1st-app-forrealUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "hello max - 1st app forreal";
+			};
+			name = Debug;
+		};
+		F80A5F5D1CCB5C9900F14B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "hello max - 1st app forrealUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dhindsa.hello-max---1st-app-forrealUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "hello max - 1st app forreal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F80A5F231CCB5C9800F14B8F /* Build configuration list for PBXProject "hello max - 1st app forreal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80A5F531CCB5C9900F14B8F /* Debug */,
+				F80A5F541CCB5C9900F14B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F80A5F551CCB5C9900F14B8F /* Build configuration list for PBXNativeTarget "hello max - 1st app forreal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80A5F561CCB5C9900F14B8F /* Debug */,
+				F80A5F571CCB5C9900F14B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F80A5F581CCB5C9900F14B8F /* Build configuration list for PBXNativeTarget "hello max - 1st app forrealTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80A5F591CCB5C9900F14B8F /* Debug */,
+				F80A5F5A1CCB5C9900F14B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F80A5F5B1CCB5C9900F14B8F /* Build configuration list for PBXNativeTarget "hello max - 1st app forrealUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80A5F5C1CCB5C9900F14B8F /* Debug */,
+				F80A5F5D1CCB5C9900F14B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F80A5F201CCB5C9800F14B8F /* Project object */;
+}
